@@ -15,6 +15,8 @@
 
 /* MENU BAR FULL */
 .menu-bar{
+    width:1520px;
+    background-color: #ae2024;
     display: flex;
 }
 
@@ -190,12 +192,15 @@
     border: 0;
     font-size: 18px;
     font-family: font2, Arial, monospace;
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
     
 }
 
 .btn-menu-1 button:hover
 {
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 .menu-btn
@@ -222,7 +227,6 @@
 /* BODY 1 */
 .b1{
     margin-left: 120px;
-    
     margin-top: 195px;
     height: 600px;
     width: 769px;
@@ -265,7 +269,7 @@
     
     display: flex;
     height:1055px ;
-    width:100% ;
+    width:1530px;
     background-color:#f7f7f7;  
     
 }
@@ -273,18 +277,19 @@
 .b1 button{
     width: 180px;
     height: 56px;
-    background-color: #ae2024;
     color: white;
     border: 0;
     font-size: 18px;
     font-family: font2, Arial, monospace;
     margin-bottom: 98px;
-    
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
 }
 
-.b1 button:hover{
-    background-color: #292545;
+.b1 button:hover{ 
     color: white;
+    background-position: left;
 }
 .hd h1{
     font-size: 40px;
@@ -484,14 +489,17 @@
     color: white;
     border: 0;
     font-size: 18px;
-    font-family: font2, Arial, monospace;   
+    font-family: font2, Arial, monospace;
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;   
 }
 
 
 
 /* GET A QUOTE BUTTON HOVER */
 .get-a-quote-btn button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -597,11 +605,14 @@
     font-size: 18px;
     font-family: font2, Arial, monospace;  
     margin-top: 32px; 
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
 }
 
 /* GET AN ESTIMATE BUTTON HOVER RIGHT SIDE BOX IN BODY 4 */
 .right-of-img-box button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -870,14 +881,19 @@
     font-size: 18px;
     font-family: font2, Arial, monospace;  
     margin-top: 32px; 
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
 }
 
-
+.body-8{
+    width:1520px;
+}
 
 
 /* BODY 8 BUTTON HOVER */
 .b8-btn button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -1018,6 +1034,9 @@
     font-size: 18px;
     font-family: font2, Arial, monospace;  
     margin-top: 32px; 
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
 }
 
 
@@ -1025,7 +1044,7 @@
 
 /* BODY 9 BUTTON HOVER */
 .b9-1 button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -1201,6 +1220,7 @@
 /* BODY 12 */
 .body-12{
     display: flex;
+    width:1520px;
     justify-content: center;
     background-color:#f7f7f7;
     }
@@ -1265,6 +1285,9 @@
     border: 0;
     font-size: 18px;
     font-family: font2, Arial, monospace;  
+    background: linear-gradient(to left, #ae2024 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
      
 }
 
@@ -1275,13 +1298,14 @@
     align-items: center;
     justify-content: center;
     height: 250px;
+    width:1520px;
     
     background-color: #f7f7f7;
 }
 
 /* BODY 13 BUTTON HOVER */
 .b13 button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -1307,9 +1331,12 @@
     font-family: font2, Arial, monospace;  
     margin-top: 131px; 
     margin-left: 500px;
+    background: linear-gradient(to left, #ffffff 50%, #0c152a 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
 }
 .b14-btn button:hover{
-    background-color: #292545;
+    background-position: left;
     color: white;
 }
 
@@ -1415,6 +1442,7 @@
 /*BODY 15 1-2  */
 .b15-1-2{
     margin-left: 100px;
+    
 }
 
 
@@ -1428,7 +1456,9 @@
     padding-bottom: 42px; 
 }
 
-
+.b15-2{
+    width:1520px;
+}
 
 /* BODY 2-1 LIST */
 .b15-2-1 li{
@@ -1454,6 +1484,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width:1520px;
 }
 
 .b15-2-1 a{
