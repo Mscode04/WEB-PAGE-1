@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* LOGO-MAIN */
 .logo-original img{
     height: 123px;
@@ -12,15 +11,12 @@
     padding-right: 58px;
     padding-left:58px; 
 }
-
 /* MENU BAR FULL */
 .menu-bar{
     width:1520px;
     background-color: #ae2024;
     display: flex;
 }
-
-
 /* LOGO BACKGROUND */
 .logo-original{
     background-color: #f7f7f7;
@@ -31,7 +27,6 @@
     justify-content: center;
     box-shadow: rgb(203, 202, 202) 0px 5px 5px;
 }
-
 /* MENU BAR CHILD */
 .nav-main{
     height: 165px;
@@ -40,7 +35,6 @@
     display: flex;
     flex-direction: column;
 }
-
 /* NAV BAR TOP */
 .nav-up{
     height: 84px;
@@ -50,18 +44,14 @@
     justify-content: end;
     border-bottom: 1px solid rgb(237, 237, 237);
 }
-
 /* NAV BAR DOWN */
 .nav-bottom{
     height: 100px;
     width: 1249px;
     background-color: white;
     box-shadow: rgb(203, 202, 202) 1px 5px 5px;
-    display: flex;
-    
+    display: flex;   
 }
-
-
 /* ICON BOX IMAGE */
 .icon-box img{
     height: 50px;
@@ -70,41 +60,31 @@
     background-color: #eff1f0;
     border-radius: 50px;
 }
-
-
 /* PLAIN DIV IN NAV TOP */
 .up-1{
     height: 82px;
     width: 500px;
     background-color: white;
 }
-
 /* ICON BOX */
 .icon-box{
     display: flex;
     align-items: center;
     padding: 10px;
 }
-
-
 /* ICON BOX A TAG */
 .icon-box a{
     text-decoration: none;
     color: black;
 }
-
-
 /* SPAN IN HEADING */
 .hed-span{
     margin-left: 12px;
 }
-
 /* CALL DIV */
 .up-2{
     padding-right: 20px;
 }
-
-
 /* PIN AND MAIL BOX */
 .up-3,.up-4{
     height: 50px;
@@ -118,13 +98,11 @@
 .up-4{
     margin-right: 10px;
 }
-
 /* SPAN HOVER */
 .icon-box span:hover{
     text-decoration: underline;
     color: #1a1a1a;
 }
-
 /* DOWN SELECT */
 .nav-bottom  select{
     padding: 10px;
@@ -136,8 +114,6 @@
     font-size: 16px;
     
 }
-
-
 /* ID TO ALTER DOWN NAV */
 #service
 {
@@ -154,8 +130,6 @@
 #location:hover{
     text-decoration: underline #ae2024;
 }
-
-
 /* NAV BOTTOM A TAG */
 .nav-bottom a
 {
@@ -163,15 +137,12 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 10px;
-    
+    margin: 10px;   
 }
 .nav-bottom a:hover
 {
     text-decoration: underline #ae2024;
 }
-
-
 /* HOME */
 .home
 {
@@ -179,8 +150,6 @@
     align-items: center;
     margin-left: 80px;
 }
-
-
 /* BUTTON DOWN BAR */
 .btn-menu-1 button
 {
@@ -197,7 +166,6 @@
     transition: 1s ease-out;
     
 }
-
 .btn-menu-1 button:hover
 {
     background-position: left;
@@ -211,7 +179,6 @@
     justify-content: end;
     margin-left: 85px;
 }
-
 .btn-menu-2 button
 {
     font-size: 26px;
@@ -219,11 +186,6 @@
     background-color: rgba(255, 255, 255, 0);
     border: 0;
 }
-
-
-
-
-
 /* BODY 1 */
 .b1{
     margin-left: 120px;
@@ -231,15 +193,12 @@
     height: 600px;
     width: 769px;
     display: grid;
-   
 }
-
 .b1 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     
 }
-
 .b1 p{
     color: #292545;
     font-family: Arial, Helvetica, sans-serif;
@@ -253,27 +212,20 @@
     position: relative;
     right:100px;
     top: 109px;
-}
-    
+}  
 .wave-p{
-    /*  x  */
     background-image: url(/Web-page-2/images/waves.svg);
     height:1055px ;
     width:630px ;
     background-color:#0c152a;
-    background-size: 630px;
-    
+    background-size: 630px;   
 }
-
-.body-1{
-    
+.body-1{  
     display: flex;
     height:1055px ;
     width:1530px;
-    background-color:#f7f7f7;  
-    
+    background-color:#f7f7f7;     
 }
-
 .b1 button{
     width: 180px;
     height: 56px;
@@ -286,7 +238,6 @@
     background-size: 200%;
     transition: 1s ease-out;
 }
-
 .b1 button:hover{ 
     color: white;
     background-position: left;
@@ -301,9 +252,6 @@
 .b1-1{
     display: flex;
 }
-
-
-
 /* BODY TWO ONLY HEDING AND PARAGRAPH */
 .body-2{
     height: 233px;
@@ -318,20 +266,12 @@
     align-items: center;
     justify-content: center;
 }
-
-
-
-
 /* HEDING OF BODY 2 */
 .body-2 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 39px;
     color: #1a1a1a;
 }
-
-
-
-
 /* TOP HEDING OF BODY 2 */
 .body-2 h5{
     font-size: 16px;
@@ -339,27 +279,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 4px;
 }
-
-
-
-
-
 /*  PARAGRAPH OF BODY 2*/
 .body-2 p{
     color: #4e4b66;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
 /* GAP BETWEEN HEADING AND PARAGRAPH */
 #bottom-pad{
     padding-bottom: 16px;
 }
-
-
 /* BODY 3 PARENT */
 .body-3{
     background-color: white;
@@ -368,66 +297,46 @@
     margin-left: 40px;
     margin-bottom: 64px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
-
-
 /* BODY 3 CHILD  */
 .b3-child{
     height: 302px;
     width: 344px;
     background-color:#f7f7f7 ; 
     padding-left: 49px;
-    padding-top: 47px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+    padding-top: 47px; 
+    font-family: Arial, Helvetica, sans-serif;  
 }
-
 /* BODY 3 CHILD IMAGE */
 .b3-child img{
     height: 44px ;
     width: 44px;
-    margin-bottom: 24px;
-    
+    margin-bottom: 24px;   
 }
-
 .b3-child img:hover{
     height: 44px ;
     width: 44px;
     margin-bottom: 24px;
     opacity: 0.5;
-    background-color: #f7f7f7;
-    
+    background-color: #f7f7f7;   
 }
-
-
 /* BODY 3 CHILD H3 */
 .b3-child h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 16px;
-    letter-spacing: 1.25px;
-    
+    letter-spacing: 1.25px;  
 }
-
-
 /* BODY 3 CHILD PARAGRAPH */
 .body-3 p{
     font-family: Arial, Helvetica, sans-serif;
     color: #4e4b66;
 }
-
 .body-3 p:hover{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
-
-
 /* BACKGROUD IMAGED ABD HOVER  */
-
 .b3-1:hover{
     background-image: url(/Web-page-2/images/exterior.jpg);
     background-size: 496px;
@@ -456,20 +365,15 @@
     background-size: 496px;
     color: #f7f7f7;
     animation-name: anime;
-    animation-duration: 1s;
-    
+    animation-duration: 1s;  
 } 
-
 .b3-4:hover{
     background-image: url(/Web-page-2/images/floor.jpg);
     background-size: 496px;
     color: #f7f7f7;
     animation-name: anime;
-    animation-duration: 1s;
-    
+    animation-duration: 1s;   
 } 
-
-
 /* GET A QUOTE PARENT */
 .get-a-quote{
     background-color:rgb(255, 255, 255);
@@ -477,10 +381,6 @@
     justify-content: center;
     margin-bottom: 100px;
 }
-
-
-
-
 /* GET A QUOTE BUTTON */
 .get-a-quote-btn button{
     width: 180px;
@@ -494,17 +394,11 @@
     background-size: 200%;
     transition: 1s ease-out;   
 }
-
-
-
 /* GET A QUOTE BUTTON HOVER */
 .get-a-quote-btn button:hover{
     background-position: left;
     color: white;
 }
-
-
-
 /* BODY 4 */
 .body-4{
     background-color: #f7f7f7;
